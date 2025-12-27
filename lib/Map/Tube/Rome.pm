@@ -8,7 +8,7 @@ use File::ShareDir qw(dist_file);
 use Moo;
 use namespace::autoclean;
 
-$Map::Tube::Rome::VERSION   = '1.02';
+$Map::Tube::Rome::VERSION   = '1.03';
 $Map::Tube::Rome::AUTHORITY = 'cpan:GDT';
 
 has json => (is => 'ro', default => sub { dist_file('Map-Tube-Rome', 'rome-map.json') });
