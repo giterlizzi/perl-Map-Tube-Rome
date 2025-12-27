@@ -27,10 +27,6 @@ __END__
 
 Map::Tube::Rome - Interface to the Rome tube map
 
-=head1 VERSION
-
-version 1.00
-
 =head1 SYNOPSIS
 
     use Map::Tube::Rome;
